@@ -1,0 +1,21 @@
+# ------------------------------------------------------------------------------------ #
+# Get Naver Movie Search Result
+# Usage : NSEARCH_PREFIX + MOVIE_TITLE + NSEARCH_SUFFIX
+# ex. http://movie.naver.com/movie/search/result.nhn?query=신세계&section=movie&ie=utf8
+# ------------------------------------------------------------------------------------ #
+NSEARCH_PREFIX="http://movie.naver.com/movie/search/result.nhn?query="
+NSEARCH_SUFFIX="&section=movie&ie=utf8"
+
+# -------------------------------- #
+# Get Specific Naver Movie Page
+# Usage : NMOVIE + MOVIE_ID
+# ex. http://movie.naver.com/movie/bi/mi/basic.nhn?code=19283
+# -------------------------------- #
+NMOVIE="http://movie.naver.com/movie/bi/mi/basic.nhn?code="
+
+# -------------------------------- #
+# Get Naver Movie Score Page
+# Usage : NSCORE + MOVIE_ID
+# ex. http://movie.naver.com/movie/bi/mi/point.nhn?code=19283
+# -------------------------------- #
+NSCORE="http://movie.naver.com/movie/bi/mi/point.nhn?code="
